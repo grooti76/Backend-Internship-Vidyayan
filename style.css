@@ -1,0 +1,73 @@
+.order {
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(white, blanchedalmond, tomato);
+    height: 100%;
+    border: 10px solid tomato;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    transition: .5s;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    z-index: 999;
+}
+
+.order-it:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    z-index: 999;
+}
+
+.card-img {
+    width: 280px;
+    height: 230px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card-text {
+    margin: 10px;
+}
+
+.order-it {
+    background-color: tomato;
+    color: white;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+#date-div {
+    border: solid tomato;
+    border-radius: 20px;
+    padding: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(tomato, white);
+}
+
+#date {
+    color: white;
+}

@@ -1,0 +1,22 @@
+/* body {
+    text-align: center;
+    background: linear-gradient(to left, white, purple, blue);
+}
+
+#btn {
+    padding: 30px;
+    border: 1px solid paleturquoise;
+    background-color: purple;
+    color: white;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+#btn:hover {
+    transition: .5s;
+    transform: scale(1.1);
+    font-size: 20px;
+    box-shadow: 0px 0px 26px 0px purple;
+    background-color: white;
+    color: purple;
+} */

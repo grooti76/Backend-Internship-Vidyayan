@@ -1,0 +1,22 @@
+#title,
+.btn {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+#btn {
+    background-color: tomato;
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 4px;
+    width: 100px;
+}
+
+#btn:hover {
+    transform: scale(1.5);
+
+}
